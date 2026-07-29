@@ -123,56 +123,56 @@ export const SITE_DATA = {
 
     projects: [
         {
-            id: "rest-api",
+            id: "portfolio-website",
             title: {
-                en: "RESTful API Backend Engine",
-                vi: "Hệ thống RESTful API Backend Engine"
+                en: "Personal Portfolio & Profile",
+                vi: "Trang Cá Nhân & Portfolio"
             },
             description: {
-                en: "Scalable backend micro-service with Express.js, SQL Server database integration, JWT authentication, and structured error handling for RESTful web applications.",
-                vi: "Dịch vụ backend xử lý dữ liệu xây dựng trên Node.js, Express.js tích hợp SQL Server, phân quyền bằng JWT Token và cấu trúc xử lý lỗi tập trung cho các ứng dụng web."
+                en: "Modern Single-Page Portfolio built with React 19, Vite, and Tailwind CSS v4 featuring dynamic bilingual translation, responsive layout, and clean UI components.",
+                vi: "Trang web cá nhân hiện đại xây dựng bằng React 19, Vite và Tailwind CSS v4 với tính năng chuyển đổi đa ngôn ngữ, giao diện responsive và các component tối ưu."
             },
-            tags: ["Node.js", "Express", "SQL Server", "REST API"],
-            githubUrl: "https://github.com/trinhngocnhat"
-        },
-        {
-            id: "helpdesk-tracker",
-            title: {
-                en: "IT Helpdesk Ticket & Asset Tracker",
-                vi: "Hệ thống IT Helpdesk Ticket & Asset Tracker"
-            },
-            description: {
-                en: "Operational management tool for logging user incidents, tracking office hardware assets, assignment workflows, and reporting connectivity statuses based on 3 months of Helpdesk experience.",
-                vi: "Công cụ quản lý nội bộ ghi nhận sự cố người dùng, theo dõi tài sản phần cứng văn phòng, phân công công việc và báo cáo trạng thái dựa trên 3 tháng kinh nghiệm thực tế tại Helpdesk."
-            },
-            tags: ["JavaScript", "Node.js", "SQLite", "System Support"],
-            githubUrl: "https://github.com/trinhngocnhat"
-        },
-        {
-            id: "android-task-manager",
-            title: {
-                en: "Android Task Manager App",
-                vi: "Ứng dụng Android Task Manager"
-            },
-            description: {
-                en: "Native Android application built with Kotlin and Jetpack Compose featuring local data persistence using Room Database, asynchronous Coroutines, and clean MVVM architecture.",
-                vi: "Ứng dụng di động Android thuần viết bằng Kotlin và Jetpack Compose, lưu trữ dữ liệu offline với Room Database, xử lý bất đồng bộ Coroutines và mô hình kiến trúc MVVM."
-            },
-            tags: ["Kotlin", "Jetpack Compose", "Room DB", "MVVM"],
-            githubUrl: "https://github.com/trinhngocnhat"
-        },
-        {
-            id: "bridge-portfolio",
-            title: {
-                en: "React + Tailwind Multi-Lang Portfolio",
-                vi: "Website Portfolio React + Tailwind Đa Ngôn Ngữ"
-            },
-            description: {
-                en: "Personal portfolio application built with React 18, Vite, and Tailwind CSS implementing the Gang of Four (GoF) Bridge Design Pattern for language switching & client-side routing on GitHub Pages.",
-                vi: "Ứng dụng trang cá nhân xây dựng với React 18, Vite và Tailwind CSS áp dụng mẫu thiết kế Bridge (Gang of Four) để chuyển đổi ngôn ngữ & điều hướng mượt mà trên GitHub Pages."
-            },
-            tags: ["React 18", "Tailwind CSS", "Vite", "Bridge Pattern", "GitHub Pages"],
+            tags: ["React 19", "Tailwind CSS v4", "Vite", "JavaScript", "GitHub Pages"],
             githubUrl: "https://github.com/trinhngocnhat/trinhngocnhat.github.io"
+        },
+        {
+            id: "motel-manager",
+            title: {
+                en: "Motel Management System",
+                vi: "Hệ Thống Quản Lý Phòng Trọ (Motel Manager)"
+            },
+            description: {
+                en: "Management system designed to log room information, track monthly utility bills, tenant records, payment statuses, and automated reporting.",
+                vi: "Hệ thống quản lý phòng trọ hỗ trợ quản lý thông tin phòng, tính tiền điện nước hàng tháng, lưu trữ hồ sơ người thuê và theo dõi trạng thái thanh toán."
+            },
+            tags: ["Node.js", "Express", "SQL", "Backend", "Management System"],
+            githubUrl: "https://github.com/trinhngocnhat/motel-manager"
+        },
+        {
+            id: "laughing-garbanzo",
+            title: {
+                en: "Backend Service & API Engine",
+                vi: "Dịch Vụ Backend & API Engine (Laughing Garbanzo)"
+            },
+            description: {
+                en: "Scalable backend service featuring RESTful API endpoints, data validation, database connection modules, and structured error handling architecture.",
+                vi: "Dự án dịch vụ backend xử lý RESTful API, xác thực dữ liệu, kết nối cơ sở dữ liệu và cấu trúc xử lý lỗi tập trung."
+            },
+            tags: ["Node.js", "Express.js", "RESTful API", "SQL Server", "Backend"],
+            githubUrl: "https://github.com/trinhngocnhat/laughing-garbanzo"
+        },
+        {
+            id: "project-intern",
+            title: {
+                en: "Internship System Development Project",
+                vi: "Dự Án Thực Tập & Phát Triển Hệ Thống (Project Intern)"
+            },
+            description: {
+                en: "Practical internship project demonstrating system testing, issue tracking, software integration, end-user technical support, and backend development practices.",
+                vi: "Dự án thực tập ứng dụng thực tế thể hiện kỹ năng kiểm thử hệ thống, xử lý sự cố, tích hợp phần mềm và phát triển ứng dụng backend."
+            },
+            tags: ["JavaScript", "Node.js", "System Support", "IT Helpdesk", "Testing"],
+            githubUrl: "https://github.com/trinhngocnhat/project_intern"
         }
     ],
 
