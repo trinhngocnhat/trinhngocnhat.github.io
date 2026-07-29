@@ -1,6 +1,0 @@
-# Allow all web search crawlers and Googlebot
-User-agent: *
-Allow: /
-
-# Sitemap Location for Google Search Console (GSC)
-Sitemap: https://trinhngocnhat.github.io/sitemap.xml
