@@ -4,15 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Trịnh Ngọc Nhất - Personal Profile & Portfolio | Aspiring Backend Developer. Select your preferred language (English / Tiếng Việt).">
+    <title>Trịnh Ngọc Nhất | Personal Profile & Portfolio (Backend Developer)</title>
+
+    <!-- SEO Meta Tags for Google Search Console (GSC) -->
+    <meta name="description" content="Official personal portfolio of Trịnh Ngọc Nhất (Trinh Ngoc Nhat). Aspiring Backend Developer in Vietnam with IT Helpdesk experience, specializing in Node.js, Express.js, RESTful APIs, and SQL databases.">
+    <meta name="keywords" content="trinh ngoc nhat, Trịnh Ngọc Nhất, Trinh Ngoc Nhat Developer, Backend Developer Vietnam, Trịnh Ngọc Nhát, Node.js Developer">
+    <meta name="author" content="Trịnh Ngọc Nhất">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://trinhngocnhat.github.io/" />
+
+    <!-- Google Site Verification -->
     <meta name="google-site-verification" content="X9bzEYSVeZ4Wumr9RL7InZdY4B2abW9GRIvkGgvxtYM" />
 
-    <title>Trịnh Ngọc Nhất | Personal Profile & Portfolio</title>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://trinhngocnhat.github.io/" />
+    <meta property="og:title" content="Trịnh Ngọc Nhất | Personal Profile & Portfolio" />
+    <meta property="og:description" content="Personal portfolio of Trịnh Ngọc Nhất. Backend Developer with IT Helpdesk experience, Node.js, REST APIs, and database engineering skills." />
+    <meta property="og:image" content="https://trinhngocnhat.github.io/assets/images/logo.jpg" />
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://trinhngocnhat.github.io/" />
+    <meta name="twitter:title" content="Trịnh Ngọc Nhất | Backend Developer Portfolio" />
+    <meta name="twitter:description" content="Personal portfolio of Trịnh Ngọc Nhất. Backend Developer with IT Helpdesk experience, Node.js, REST APIs, and database engineering skills." />
+    <meta name="twitter:image" content="https://trinhngocnhat.github.io/assets/images/logo.jpg" />
+
+    <!-- JSON-LD Structured Data for Google Search Person Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Trịnh Ngọc Nhất",
+      "alternateName": ["Trinh Ngoc Nhat", "Trinh Ngoc Nhat Developer", "Trịnh Ngọc Nhát"],
+      "url": "https://trinhngocnhat.github.io/",
+      "image": "https://trinhngocnhat.github.io/assets/images/logo.jpg",
+      "jobTitle": "Backend Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Software Engineering"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "Vietnam"
+      },
+      "email": "trinhngocnhat079@gmail.com",
+      "sameAs": [
+        "https://github.com/trinhngocnhat",
+        "https://linkedin.com/in/nhat-trinhoc-87273b313"
+      ],
+      "knowsAbout": [
+        "Backend Development",
+        "Node.js",
+        "Express.js",
+        "RESTful API",
+        "SQL Server",
+        "Software Architecture",
+        "IT Helpdesk Support"
+      ]
+    }
+    </script>
+
+    <!-- Fonts & Favicon -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
     <link rel="icon" href="assets/images/logo.jpg" type="image/jpeg">
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -21,14 +77,6 @@
     <script src="assets/js/data.js" defer></script>
     <script src="assets/js/components.js" defer></script>
     <script src="assets/js/app.js" defer></script>
-    <script>
-        // Automatic routing to preferred language version upon entry
-        document.addEventListener('DOMContentLoaded', () => {
-            if (window.languageManager) {
-                window.languageManager.autoRoute();
-            }
-        });
-    </script>
 </head>
 
 <body data-page="home">
@@ -44,23 +92,28 @@
             <section class="main-content">
                 <section class="section">
                     <div class="section-title">
-                        <div class="title-icon">🌐</div>
-                        <h2>Select Language / Chọn ngôn ngữ</h2>
+                        <div class="title-icon">👋</div>
+                        <h2>Professional Summary / Tóm tắt chuyên môn</h2>
                     </div>
                     <p class="about-text">
-                        Welcome to my personal profile website. Please select your preferred language below:
+                        Aspiring Backend Developer with 3 months of IT Helpdesk experience, skilled in troubleshooting hardware and software issues, network connectivity, internet configuration, system testing, and end-user technical support.
                     </p>
-                    <p class="about-text" style="margin-top: 6px;">
-                        Chào mừng bạn đến với trang cá nhân của tôi. Vui lòng chọn ngôn ngữ hiển thị:
+                    <p class="about-text" style="margin-top: 12px;">
+                        Là ứng viên Backend tiềm năng với 3 tháng kinh nghiệm IT Helpdesk, có kỹ năng xử lý sự cố phần cứng và phần mềm, kết nối mạng, cấu hình internet, kiểm thử hệ thống và hỗ trợ kỹ thuật cho người dùng cuối.
                     </p>
-                    <div class="cta-group" style="margin-top: 28px;">
-                        <a href="en/index.html" class="btn-primary" onclick="if(window.languageManager) { window.languageManager.changeLanguage('en'); }">
-                            🇬🇧 English Version →
-                        </a>
-                        <a href="vi/index.html" class="btn-primary btn-outline" onclick="if(window.languageManager) { window.languageManager.changeLanguage('vi'); }">
-                            🇻🇳 Phiên bản Tiếng Việt →
-                        </a>
+                    <div class="cta-group">
+                        <a href="en/about.html" class="btn-primary">View English Profile →</a>
+                        <a href="vi/about.html" class="btn-primary btn-outline">Xem bản Tiếng Việt →</a>
                     </div>
+                </section>
+
+                <section class="section">
+                    <div class="section-title">
+                        <div class="title-icon">⚡</div>
+                        <h2>Key Expertise / Kỹ năng nổi bật</h2>
+                    </div>
+                    <!-- Shared Skills Grid Placeholder -->
+                    <div id="skills-container"></div>
                 </section>
             </section>
         </main>

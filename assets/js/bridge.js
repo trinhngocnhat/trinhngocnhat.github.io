@@ -6,16 +6,6 @@
  * DESIGN PATTERN EXPLANATION:
  * The Bridge Pattern decouples an abstraction (LanguageManager) from its 
  * implementation (LanguageSwitchImplementor) so that the two can vary independently.
- * 
- * - Abstraction: LanguageManager / WebLanguageBridge
- *   High-level interface used by UI components (e.g. language buttons, auto-routing).
- * 
- * - Implementor Interface: LanguageSwitchImplementor
- *   Abstract interface declaring low-level operations for switching language & reading preferences.
- * 
- * - Concrete Implementor: UrlRedirectImplementor
- *   Switches language by navigating between /en/ and /vi/ directory trees while preserving
- *   the current page (index.html, about.html, projects.html).
  */
 
 // 1. Implementor Interface
@@ -38,7 +28,9 @@ class UrlRedirectImplementor extends LanguageSwitchImplementor {
             console.warn('LocalStorage unavailable:', e);
         }
 
-        // Determine current page filename (index.html, about.html, projects.html)
+        // Check if currently inside /en/ or /vi/
+        const isSubDir = window.location.pathname.includes('/en/') || window.location.pathname.includes('/vi/');
+        
         let pageName = 'index.html';
         const cleanPath = window.location.pathname.split('?')[0].split('#')[0];
         const segments = cleanPath.split('/').filter(Boolean);
@@ -48,11 +40,6 @@ class UrlRedirectImplementor extends LanguageSwitchImplementor {
             pageName = lastSegment;
         }
 
-        // Check if currently inside /en/ or /vi/
-        const isSubDir = segments.includes('en') || segments.includes('vi') ||
-                         window.location.pathname.includes('/en/') || 
-                         window.location.pathname.includes('/vi/');
-        
         let redirectTarget = '';
         if (isSubDir) {
             redirectTarget = `../${targetLang}/${pageName}`;
@@ -99,21 +86,18 @@ class LanguageManager extends WebLanguageBridge {
         super(implementor);
     }
 
-    // High-level operation: Change language to target ('en' or 'vi')
     changeLanguage(targetLang) {
         const currentLang = this.getCurrentLanguage();
         if (currentLang === targetLang) return;
         this.implementor.switchLanguage(targetLang, window.location.pathname);
     }
 
-    // High-level operation: Toggle language EN <-> VI
     toggleLanguage() {
         const current = this.getCurrentLanguage();
         const next = current === 'en' ? 'vi' : 'en';
         this.changeLanguage(next);
     }
 
-    // Get current active language based on URL path or saved preference
     getCurrentLanguage() {
         const path = window.location.pathname;
         if (path.includes('/vi/') || path.endsWith('/vi') || path.endsWith('/vi/index.html')) {
@@ -125,15 +109,9 @@ class LanguageManager extends WebLanguageBridge {
         return this.implementor.getSavedLanguage();
     }
 
-    // Auto router for root landing page (index.html)
+    // Auto router maintains root URL https://trinhngocnhat.github.io
     autoRoute() {
-        const path = window.location.pathname;
-        const isInSubDir = path.includes('/en/') || path.includes('/vi/');
-        
-        if (!isInSubDir) {
-            const preferredLang = this.implementor.getSavedLanguage();
-            window.location.replace(`./${preferredLang}/index.html`);
-        }
+        // Keeps root URL https://trinhngocnhat.github.io default without forced redirect
     }
 }
 
