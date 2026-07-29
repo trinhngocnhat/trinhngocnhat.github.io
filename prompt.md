@@ -1,7 +1,3 @@
-this source is for a project deploy to website https://trinhngocnhat.github.io
-and use for push on GSC
-your mission are develop, fix bug for my website can use for everyone can see it when find me in google 
-framework will use is react, tailwind
-default link "https://trinhngocnhat.github.io" not "https://trinhngocnhat.github.io/en/index.html"
-make 2 file rotbots.txt, sitemap.xml
-make sure if i use google search "trinh ngoc nhat" everyone will see the web "https://trinhngocnhat.github.io"
+only use image from "D:\Github\trinhngocnhat079.github.io\assets\images\logo.jpg" to make avatar 
+and favicon
+you put 2 file sitemap.xml and robots.txt in wrong place you need to put these file in folder where when i run "npm run build " it must be copy without modification and optimize my code for me like assets folder in root why don't you but it in public/asset for short   
