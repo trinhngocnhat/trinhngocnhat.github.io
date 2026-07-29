@@ -69,59 +69,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="icon" href="assets/images/logo.jpg" type="image/jpeg">
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!-- Shared Production Modules -->
-    <script src="assets/js/bridge.js"></script>
-    <script src="assets/js/data.js" defer></script>
-    <script src="assets/js/components.js" defer></script>
-    <script src="assets/js/app.js" defer></script>
+    <link rel="icon" href="/assets/images/logo.jpg" type="image/jpeg">
 </head>
 
-<body data-page="home">
-
-    <!-- Shared Header Placeholder -->
-    <div id="site-header"></div>
-
-    <div class="container">
-        <main class="profile-card" role="main">
-            <!-- Shared Sidebar Placeholder -->
-            <div id="site-sidebar"></div>
-
-            <section class="main-content">
-                <section class="section">
-                    <div class="section-title">
-                        <div class="title-icon">👋</div>
-                        <h2>Professional Summary / Tóm tắt chuyên môn</h2>
-                    </div>
-                    <p class="about-text">
-                        Aspiring Backend Developer with 3 months of IT Helpdesk experience, skilled in troubleshooting hardware and software issues, network connectivity, internet configuration, system testing, and end-user technical support.
-                    </p>
-                    <p class="about-text" style="margin-top: 12px;">
-                        Là ứng viên Backend tiềm năng với 3 tháng kinh nghiệm IT Helpdesk, có kỹ năng xử lý sự cố phần cứng và phần mềm, kết nối mạng, cấu hình internet, kiểm thử hệ thống và hỗ trợ kỹ thuật cho người dùng cuối.
-                    </p>
-                    <div class="cta-group">
-                        <a href="en/about.html" class="btn-primary">View English Profile →</a>
-                        <a href="vi/about.html" class="btn-primary btn-outline">Xem bản Tiếng Việt →</a>
-                    </div>
-                </section>
-
-                <section class="section">
-                    <div class="section-title">
-                        <div class="title-icon">⚡</div>
-                        <h2>Key Expertise / Kỹ năng nổi bật</h2>
-                    </div>
-                    <!-- Shared Skills Grid Placeholder -->
-                    <div id="skills-container"></div>
-                </section>
-            </section>
-        </main>
-
-        <!-- Shared Footer Placeholder -->
-        <div id="site-footer"></div>
-    </div>
-
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 
 </html>
