@@ -1,14 +1,12 @@
 /**
  * Shared Data & Content Store (Single Source of Truth)
- * Project: trinhngocnhat.github.io
- * Author: Trịnh Ngọc Nhát
- * 
- * Updating data here automatically reflects across all pages & languages!
+ * Project: trinhngocnhat.github.io (React Edition)
+ * Author: Trịnh Ngọc Nhất
  */
 
-const SITE_DATA = {
+export const SITE_DATA = {
     profile: {
-        name: "Trịnh Ngọc Nhát",
+        name: "Trịnh Ngọc Nhất",
         roles: {
             en: "Aspiring Backend Developer",
             vi: "Lập trình viên Backend tiềm năng"
@@ -26,9 +24,9 @@ const SITE_DATA = {
     },
 
     nav: [
-        { key: "home", page: "index.html", label: { en: "Home", vi: "Trang chủ" } },
-        { key: "about", page: "about.html", label: { en: "About", vi: "Giới thiệu" } },
-        { key: "projects", page: "projects.html", label: { en: "Projects", vi: "Dự án" } }
+        { key: "home", path: "/", label: { en: "Home", vi: "Trang chủ" } },
+        { key: "about", path: "/about", label: { en: "About", vi: "Giới thiệu" } },
+        { key: "projects", path: "/projects", label: { en: "Projects", vi: "Dự án" } }
     ],
 
     labels: {
@@ -44,7 +42,7 @@ const SITE_DATA = {
         keyExpertise: { en: "Key Expertise", vi: "Kỹ năng nổi bật" },
         technicalSkills: { en: "Technical Skills Matrix", vi: "Ma trận kỹ năng kỹ thuật" },
         featuredProjects: { en: "Featured Technical Projects", vi: "Dự án kỹ thuật tiêu biểu" },
-        featuredProjectsDesc: {
+        featuredProjectsDesc: { 
             en: "A showcase of applications, backend service designs, and software architectural explorations.",
             vi: "Tổng hợp các ứng dụng, dịch vụ backend và các thử nghiệm kiến trúc phần mềm thực tế."
         }
@@ -59,16 +57,16 @@ const SITE_DATA = {
             en: "Currently mastering backend development, RESTful API design, database architecture, and clean software patterns. Passionate about building reliable, scalable backend systems and eager to contribute to a professional engineering team.",
             vi: "Hiện đang tập trung nâng cao chuyên môn phát triển backend, xây dựng RESTful API, thiết kế cơ sở dữ liệu và kiến trúc phần mềm sạch. Đam mê xây dựng hệ thống backend ổn định, có khả năng mở rộng cao và mong muốn đóng góp vào đội ngũ phát triển chuyên nghiệp."
         },
-        full: {
-            en: [
-                "I am an enthusiastic IT professional transitioning into backend software engineering. With a foundational background in IT Helpdesk support, I bring practical insights into system operations, network configurations, hardware/software troubleshooting, and end-user requirements.",
-                "Driven by a passion for how web services process data behind the scenes, I am actively building my expertise in Node.js, Express, REST APIs, SQL databases, and modern software design patterns."
-            ],
-            vi: [
-                "Tôi là một kỹ sư CNTT nhiệt huyết đang chuyển hướng chuyên sâu sang lĩnh vực lập trình backend. Với nền tảng thực tế từ 3 tháng làm việc tại vị trí IT Helpdesk, tôi hiểu rõ quy trình vận hành hệ thống, cấu hình mạng, xử lý sự cố phần cứng/phần mềm và đáp ứng yêu cầu từ người dùng cuối.",
-                "Được thúc đẩy bởi niềm đam mê với cách các dịch vụ web xử lý dữ liệu đằng sau hậu trường, tôi liên tục học hỏi và làm chủ các công nghệ Node.js, Express, REST APIs, cơ sở dữ liệu SQL cùng các mẫu thiết kế phần mềm hiện đại."
-            ]
-        }
+        full: [
+            {
+                en: "I am an enthusiastic IT professional transitioning into backend software engineering. With a foundational background in IT Helpdesk support, I bring practical insights into system operations, network configurations, hardware/software troubleshooting, and end-user requirements.",
+                vi: "Tôi là một kỹ sư CNTT nhiệt huyết đang chuyển hướng chuyên sâu sang lĩnh vực lập trình backend. Với nền tảng thực tế từ 3 tháng làm việc tại vị trí IT Helpdesk, tôi hiểu rõ quy trình vận hành hệ thống, cấu hình mạng, xử lý sự cố phần cứng/phần mềm và đáp ứng yêu cầu từ người dùng cuối."
+            },
+            {
+                en: "Driven by a passion for how web services process data behind the scenes, I am actively building my expertise in Node.js, Express, REST APIs, SQL databases, and modern software design patterns.",
+                vi: "Được thúc đẩy bởi niềm đam mê với cách các dịch vụ web xử lý dữ liệu đằng sau hậu trường, tôi liên tục học hỏi và làm chủ các công nghệ Node.js, Express, REST APIs, cơ sở dữ liệu SQL cùng các mẫu thiết kế phần mềm hiện đại."
+            }
+        ]
     },
 
     helpdeskExperience: {
@@ -76,20 +74,24 @@ const SITE_DATA = {
             en: "Helpdesk Experience (3 Months)",
             vi: "Kinh nghiệm Helpdesk (3 Tháng)"
         },
-        items: {
-            en: [
-                "Resolved hardware and software incidents for end users with clear documentation and quick turnaround times.",
-                "Configured network and internet access for office environments ensuring reliable connectivity.",
-                "Performed system testing and quality checks for desktop and mobile setups.",
-                "Handled user technical support with positive communication, empathy, and continuous follow-up."
-            ],
-            vi: [
-                "Giải quyết sự cố phần cứng và phần mềm cho người dùng cuối với tài liệu hướng dẫn và theo dõi rõ ràng.",
-                "Cấu hình mạng nội bộ và truy cập internet cho môi trường văn phòng, đảm bảo kết nối ổn định.",
-                "Thực hiện kiểm thử hệ thống và kiểm tra chất lượng cài đặt cho máy tính để bàn và thiết bị di động.",
-                "Hỗ trợ kỹ thuật cho người dùng với tinh thần giao tiếp tích cực, tận tâm và chu đáo."
-            ]
-        }
+        items: [
+            {
+                en: "Resolved hardware and software incidents for end users with clear documentation and quick turnaround times.",
+                vi: "Giải quyết sự cố phần cứng và phần mềm cho người dùng cuối với tài liệu hướng dẫn và theo dõi rõ ràng."
+            },
+            {
+                en: "Configured network and internet access for office environments ensuring reliable connectivity.",
+                vi: "Cấu hình mạng nội bộ và truy cập internet cho môi trường văn phòng, đảm bảo kết nối ổn định."
+            },
+            {
+                en: "Performed system testing and quality checks for desktop and mobile setups.",
+                vi: "Thực hiện kiểm thử hệ thống và kiểm tra chất lượng cài đặt cho máy tính để bàn và thiết bị di động."
+            },
+            {
+                en: "Handled user technical support with positive communication, empathy, and continuous follow-up.",
+                vi: "Hỗ trợ kỹ thuật cho người dùng với tinh thần giao tiếp tích cực, tận tâm và chu đáo."
+            }
+        ]
     },
 
     skills: [
@@ -162,14 +164,14 @@ const SITE_DATA = {
         {
             id: "bridge-portfolio",
             title: {
-                en: "GoF Bridge Pattern Multi-Lang Site",
-                vi: "Website Portfolio Đa Ngôn Ngữ GoF Bridge"
+                en: "React + Tailwind Multi-Lang Portfolio",
+                vi: "Website Portfolio React + Tailwind Đa Ngôn Ngữ"
             },
             description: {
-                en: "Personal portfolio website implementing the Gang of Four (GoF) Bridge Design Pattern in Vanilla JavaScript to decouple language switching abstraction from URL routing implementations on GitHub Pages.",
-                vi: "Trang web cá nhân áp dụng mẫu thiết kế Bridge (Gang of Four) trong Vanilla JavaScript để tách biệt tầng điều khiển ngôn ngữ với tầng chuyển hướng URL chạy trên GitHub Pages."
+                en: "Personal portfolio application built with React 18, Vite, and Tailwind CSS implementing the Gang of Four (GoF) Bridge Design Pattern for language switching & client-side routing on GitHub Pages.",
+                vi: "Ứng dụng trang cá nhân xây dựng với React 18, Vite và Tailwind CSS áp dụng mẫu thiết kế Bridge (Gang of Four) để chuyển đổi ngôn ngữ & điều hướng mượt mà trên GitHub Pages."
             },
-            tags: ["HTML5/CSS3", "JavaScript", "Bridge Pattern", "GitHub Pages"],
+            tags: ["React 18", "Tailwind CSS", "Vite", "Bridge Pattern", "GitHub Pages"],
             githubUrl: "https://github.com/trinhngocnhat/trinhngocnhat.github.io"
         }
     ],
@@ -187,10 +189,8 @@ const SITE_DATA = {
 
     footer: {
         text: {
-            en: "© 2026 Trịnh Ngọc Nhát | Powered by GoF Bridge Architecture",
-            vi: "© 2026 Trịnh Ngọc Nhát | Xây dựng theo kiến trúc GoF Bridge Pattern"
+            en: "© 2026 Trịnh Ngọc Nhất | Powered by React 18, Tailwind CSS & GoF Bridge Pattern",
+            vi: "© 2026 Trịnh Ngọc Nhất | Xây dựng với React 18, Tailwind CSS & GoF Bridge Pattern"
         }
     }
 };
-
-window.SITE_DATA = SITE_DATA;

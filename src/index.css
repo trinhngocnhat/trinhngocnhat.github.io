@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-color: #2563eb;
+    --accent: #7c3aed;
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f8fafc;
+    --muted: #94a3b8;
+    --border: #334155;
+  }
+
+  body {
+    @apply bg-slate-900 text-slate-50 font-sans antialiased min-h-screen;
+    background-image: radial-gradient(circle at 50% 0%, #1e293b 0%, #0f172a 100%);
+  }
+}
+
+/* Custom Glassmorphism & UI Utilities */
+.glass-header {
+  background: rgba(30, 41, 59, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.profile-card-shadow {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
