@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trinhngocnhat.github.io/sitemap.xml
