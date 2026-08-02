@@ -8,8 +8,8 @@ export const SITE_DATA = {
     profile: {
         name: "Trịnh Ngọc Nhất",
         roles: {
-            en: "Aspiring Backend Developer",
-            vi: "Lập trình viên Backend tiềm năng"
+            en: "IT Helpdesk Specialist",
+            vi: "Chuyên viên Helpdesk CNTT"
         },
         email: "trinhngocnhat079@gmail.com",
         github: "https://github.com/trinhngocnhat",
@@ -41,30 +41,30 @@ export const SITE_DATA = {
         aboutBackground: { en: "About & Background", vi: "Giới thiệu & Nền tảng" },
         keyExpertise: { en: "Key Expertise", vi: "Kỹ năng nổi bật" },
         technicalSkills: { en: "Technical Skills Matrix", vi: "Ma trận kỹ năng kỹ thuật" },
-        featuredProjects: { en: "Featured Technical Projects", vi: "Dự án kỹ thuật tiêu biểu" },
+        featuredProjects: { en: "Featured Projects", vi: "Dự án nổi bật" },
         featuredProjectsDesc: { 
-            en: "A showcase of applications, backend service designs, and software architectural explorations.",
-            vi: "Tổng hợp các ứng dụng, dịch vụ backend và các thử nghiệm kiến trúc phần mềm thực tế."
+            en: "A showcase of practical projects, IT support tools, and system solutions.",
+            vi: "Tổng hợp các dự án thực tế, công cụ hỗ trợ CNTT và giải pháp hệ thống."
         }
     },
 
     summaries: {
         short: {
-            en: "Aspiring Backend Developer with 3 months of IT Helpdesk experience, skilled in troubleshooting hardware and software issues, network connectivity, internet configuration, system testing, and end-user technical support.",
-            vi: "Là ứng viên Backend tiềm năng với 3 tháng kinh nghiệm IT Helpdesk, có kĩ năng xử lý sự cố phần cứng và phần mềm, kết nối mạng, cấu hình internet, kiểm thử hệ thống và hỗ trợ kỹ thuật cho người dùng cuối."
+            en: "IT Helpdesk candidate with 3 months of hands-on support experience, skilled at troubleshooting hardware and software issues, network connectivity, system setup, and end-user technical support.",
+            vi: "Ứng viên Helpdesk CNTT với 3 tháng kinh nghiệm thực tế trong hỗ trợ, có khả năng xử lý sự cố phần cứng và phần mềm, kết nối mạng, cài đặt hệ thống và hỗ trợ người dùng cuối."
         },
         shortSub: {
-            en: "Currently mastering backend development, RESTful API design, database architecture, and clean software patterns. Passionate about building reliable, scalable backend systems and eager to contribute to a professional engineering team.",
-            vi: "Hiện đang tập trung nâng cao chuyên môn phát triển backend, xây dựng RESTful API, thiết kế cơ sở dữ liệu và kiến trúc phần mềm sạch. Đam mê xây dựng hệ thống backend ổn định, có khả năng mở rộng cao và mong muốn đóng góp vào đội ngũ phát triển chuyên nghiệp."
+            en: "Focused on helpdesk and desktop support roles with strong communication, technical documentation, and incident response skills.",
+            vi: "Tập trung vào vị trí Helpdesk và hỗ trợ máy tính với kỹ năng giao tiếp tốt, viết tài liệu kỹ thuật và xử lý sự cố hiệu quả."
         },
         full: [
             {
-                en: "I am an enthusiastic IT professional transitioning into backend software engineering. With a foundational background in IT Helpdesk support, I bring practical insights into system operations, network configurations, hardware/software troubleshooting, and end-user requirements.",
-                vi: "Tôi là một kỹ sư CNTT nhiệt huyết đang chuyển hướng chuyên sâu sang lĩnh vực lập trình backend. Với nền tảng thực tế từ 3 tháng làm việc tại vị trí IT Helpdesk, tôi hiểu rõ quy trình vận hành hệ thống, cấu hình mạng, xử lý sự cố phần cứng/phần mềm và đáp ứng yêu cầu từ người dùng cuối."
+                en: "I am an enthusiastic IT support professional seeking a helpdesk role. With practical experience in IT Helpdesk support, I provide clear incident resolution, network configuration, hardware/software troubleshooting, and supportive end-user communication.",
+                vi: "Tôi là một chuyên viên hỗ trợ CNTT nhiệt huyết đang tìm kiếm vị trí Helpdesk. Với kinh nghiệm thực tế tại bộ phận Helpdesk, tôi mang đến khả năng giải quyết sự cố rõ ràng, cấu hình mạng, xử lý phần cứng/phần mềm và giao tiếp hỗ trợ người dùng cuối."
             },
             {
-                en: "Driven by a passion for how web services process data behind the scenes, I am actively building my expertise in Node.js, Express, REST APIs, SQL databases, and modern software design patterns.",
-                vi: "Được thúc đẩy bởi niềm đam mê với cách các dịch vụ web xử lý dữ liệu đằng sau hậu trường, tôi liên tục học hỏi và làm chủ các công nghệ Node.js, Express, REST APIs, cơ sở dữ liệu SQL cùng các mẫu thiết kế phần mềm hiện đại."
+                en: "I am committed to improving support workflows, resolving user issues quickly, and continuing to learn IT operations, system access, and technical assistance best practices.",
+                vi: "Tôi cam kết cải thiện quy trình hỗ trợ, giải quyết vấn đề người dùng nhanh chóng và tiếp tục học hỏi về vận hành CNTT, truy cập hệ thống và thực tiễn hỗ trợ kỹ thuật."
             }
         ]
     },
@@ -76,48 +76,48 @@ export const SITE_DATA = {
         },
         items: [
             {
-                en: "Resolved hardware and software incidents for end users with clear documentation and quick turnaround times.",
-                vi: "Giải quyết sự cố phần cứng và phần mềm cho người dùng cuối với tài liệu hướng dẫn và theo dõi rõ ràng."
+                en: "Resolved hardware and software incidents for end users with clear documentation and timely communication.",
+                vi: "Giải quyết sự cố phần cứng và phần mềm cho người dùng cuối với tài liệu chính xác và liên lạc kịp thời."
             },
             {
-                en: "Configured network and internet access for office environments ensuring reliable connectivity.",
-                vi: "Cấu hình mạng nội bộ và truy cập internet cho môi trường văn phòng, đảm bảo kết nối ổn định."
+                en: "Configured network access and internet connectivity for office and remote work environments.",
+                vi: "Cấu hình truy cập mạng và kết nối internet cho môi trường văn phòng và làm việc từ xa."
             },
             {
-                en: "Performed system testing and quality checks for desktop and mobile setups.",
-                vi: "Thực hiện kiểm thử hệ thống và kiểm tra chất lượng cài đặt cho máy tính để bàn và thiết bị di động."
+                en: "Performed system setup, diagnostics, and quality checks for desktop and mobile workstations.",
+                vi: "Thực hiện cài đặt hệ thống, chẩn đoán và kiểm tra chất lượng cho máy trạm và thiết bị di động."
             },
             {
-                en: "Handled user technical support with positive communication, empathy, and continuous follow-up.",
-                vi: "Hỗ trợ kỹ thuật cho người dùng với tinh thần giao tiếp tích cực, tận tâm và chu đáo."
+                en: "Provided user technical support with empathy, proactive follow-up, and helpful guidance.",
+                vi: "Cung cấp hỗ trợ kỹ thuật cho người dùng với sự đồng cảm, theo dõi chủ động và hướng dẫn hữu ích."
             }
         ]
     },
 
     skills: [
         {
-            category: { en: "Languages", vi: "Ngôn ngữ lập trình" },
-            tags: ["JavaScript", "TypeScript", "SQL", "Kotlin", "C#"]
+            category: { en: "Support Tools", vi: "Công cụ hỗ trợ" },
+            tags: ["Service Desk", "Ticketing", "Remote Support", "Documentation"]
         },
         {
-            category: { en: "Backend & APIs", vi: "Phát triển Backend" },
-            tags: ["Node.js", "Express.js", "RESTful API", "Authentication"]
+            category: { en: "IT Support Skills", vi: "Kỹ năng Hỗ trợ CNTT" },
+            tags: ["Troubleshooting", "Hardware Repair", "Software Installation", "User Training"]
         },
         {
-            category: { en: "Databases", vi: "Hệ cơ sở dữ liệu" },
-            tags: ["SQL Server", "SQLite", "Room DB", "Database Design"]
+            category: { en: "Network & Systems", vi: "Mạng & Hệ thống" },
+            tags: ["Network Access", "Wi-Fi Setup", "System Configuration", "Device Management"]
         },
         {
-            category: { en: "Frontend & Mobile", vi: "Frontend & Mobile" },
-            tags: ["React", "Next.js", "Tailwind CSS (Basic)", "Jetpack Compose"]
+            category: { en: "Technical Platforms", vi: "Nền tảng Kỹ thuật" },
+            tags: ["Windows", "Linux Basics", "Office 365", "Active Directory"]
         },
         {
-            category: { en: "Developer Tools", vi: "Công cụ phát triển" },
+            category: { en: "Tools & Collaboration", vi: "Công cụ & Hợp tác" },
             tags: ["Git", "GitHub", "Postman", "VS Code", "SSMS"]
         },
         {
-            category: { en: "Architecture & Concepts", vi: "Mẫu thiết kế & Kiến thức" },
-            tags: ["MVC", "MVVM", "Bridge Pattern", "Networking", "Testing"]
+            category: { en: "Operations & Practices", vi: "Vận hành & Thực tiễn" },
+            tags: ["ITIL Concepts", "Quality Checks", "User Communication", "Problem Solving"]
         }
     ],
 
@@ -138,40 +138,40 @@ export const SITE_DATA = {
         {
             id: "motel-manager",
             title: {
-                en: "Motel Management System",
-                vi: "Hệ Thống Quản Lý Phòng Trọ (Motel Manager)"
+                en: "Service Desk Management System",
+                vi: "Hệ Thống Quản Lý Dịch Vụ Helpdesk"
             },
             description: {
-                en: "Management system designed to log room information, track monthly utility bills, tenant records, payment statuses, and automated reporting.",
-                vi: "Hệ thống quản lý phòng trọ hỗ trợ quản lý thông tin phòng, tính tiền điện nước hàng tháng, lưu trữ hồ sơ người thuê và theo dõi trạng thái thanh toán."
+                en: "Service desk management tool for logging issues, tracking support requests, monitoring service statuses, and generating operational reports.",
+                vi: "Công cụ quản lý helpdesk để ghi nhận sự cố, theo dõi yêu cầu hỗ trợ, giám sát trạng thái dịch vụ và tạo báo cáo vận hành."
             },
-            tags: ["Node.js", "Express", "SQL", "Backend", "Management System"],
+            tags: ["IT Support", "Ticketing", "Node.js", "SQL", "Management"],
             githubUrl: "https://github.com/trinhngocnhat/motel-manager"
         },
         {
             id: "laughing-garbanzo",
             title: {
-                en: "Backend Service & API Engine",
-                vi: "Dịch Vụ Backend & API Engine (Laughing Garbanzo)"
+                en: "Helpdesk Service Engine",
+                vi: "Nền Tảng Dịch Vụ Helpdesk (Laughing Garbanzo)"
             },
             description: {
-                en: "Scalable backend service featuring RESTful API endpoints, data validation, database connection modules, and structured error handling architecture.",
-                vi: "Dự án dịch vụ backend xử lý RESTful API, xác thực dữ liệu, kết nối cơ sở dữ liệu và cấu trúc xử lý lỗi tập trung."
+                en: "A support service engine built for incident handling, data validation, workflow automation, and structured response tracking.",
+                vi: "Nền tảng dịch vụ hỗ trợ dành cho xử lý sự cố, xác thực dữ liệu, tự động hóa quy trình và theo dõi phản hồi có cấu trúc."
             },
-            tags: ["Node.js", "Express.js", "RESTful API", "SQL Server", "Backend"],
+            tags: ["Node.js", "Express.js", "IT Support", "Automation", "Service Workflow"],
             githubUrl: "https://github.com/trinhngocnhat/laughing-garbanzo"
         },
         {
             id: "project-intern",
             title: {
-                en: "Internship System Development Project",
-                vi: "Dự Án Thực Tập & Phát Triển Hệ Thống (Project Intern)"
+                en: "IT Support Internship Project",
+                vi: "Dự Án Thực Tập Hỗ Trợ CNTT"
             },
             description: {
-                en: "Practical internship project demonstrating system testing, issue tracking, software integration, end-user technical support, and backend development practices.",
-                vi: "Dự án thực tập ứng dụng thực tế thể hiện kỹ năng kiểm thử hệ thống, xử lý sự cố, tích hợp phần mềm và phát triển ứng dụng backend."
+                en: "Internship project showcasing system testing, issue tracking, software integration, user support, and practical helpdesk workflows.",
+                vi: "Dự án thực tập thể hiện kiểm thử hệ thống, theo dõi sự cố, tích hợp phần mềm, hỗ trợ người dùng và quy trình helpdesk thực tiễn."
             },
-            tags: ["JavaScript", "Node.js", "System Support", "IT Helpdesk", "Testing"],
+            tags: ["JavaScript", "IT Support", "System Support", "Helpdesk", "Testing"],
             githubUrl: "https://github.com/trinhngocnhat/project_intern"
         }
     ],
@@ -182,15 +182,15 @@ export const SITE_DATA = {
             vi: "Mục tiêu nghề nghiệp"
         },
         description: {
-            en: "My short-term goal is to join a forward-thinking software development team as a Junior Backend Engineer, where I can apply my problem-solving skills to craft efficient API services and optimize database queries. Long-term, I aim to master distributed systems, microservice architectures, and lead impactful software initiatives.",
-            vi: "Mục tiêu ngắn hạn của tôi là gia nhập một đội ngũ phát triển phần mềm chuyên nghiệp ở vị trí Junior Backend Engineer, nơi tôi có thể áp dụng tư duy giải quyết vấn đề để xây dựng các API tối ưu và truy vấn dữ liệu hiệu quả. Về lâu dài, tôi hướng tới việc làm chủ các hệ thống phân tán, kiến trúc microservices và dẫn dắt các dự án phần mềm có giá trị lớn."
+            en: "My short-term goal is to join a professional IT helpdesk or technical support team, where I can use my troubleshooting and customer service skills to resolve issues efficiently. Long-term, I want to grow into IT operations and support leadership while helping teams maintain reliable systems.",
+            vi: "Mục tiêu ngắn hạn của tôi là gia nhập đội ngũ Helpdesk hoặc hỗ trợ kỹ thuật chuyên nghiệp, nơi tôi có thể sử dụng kỹ năng xử lý sự cố và dịch vụ khách hàng để giải quyết vấn đề hiệu quả. Về lâu dài, tôi muốn phát triển vào lĩnh vực vận hành CNTT và lãnh đạo hỗ trợ, góp phần duy trì hệ thống ổn định cho đội ngũ."
         }
     },
 
     footer: {
         text: {
-            en: "© 2026 Trịnh Ngọc Nhất | Powered by React 18, Tailwind CSS & GoF Bridge Pattern",
-            vi: "© 2026 Trịnh Ngọc Nhất | Xây dựng với React 18, Tailwind CSS & GoF Bridge Pattern"
+            en: "© 2026 Trịnh Ngọc Nhất | IT Helpdesk Portfolio powered by React 19 & Tailwind CSS",
+            vi: "© 2026 Trịnh Ngọc Nhất | Portfolio Helpdesk CNTT xây dựng cùng React 19 & Tailwind CSS"
         }
     }
 };

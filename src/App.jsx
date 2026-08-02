@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { Sidebar } from './components/Sidebar';
@@ -24,13 +24,20 @@ export function App() {
                                 <Route path="/about" element={<AboutPage />} />
                                 <Route path="/projects" element={<ProjectsPage />} />
 
-                                {/* Fallback route paths */}
+                                {/* Fallback route paths for clean URLs and legacy .html bookmarks */}
                                 <Route path="/en" element={<HomePage />} />
                                 <Route path="/vi" element={<HomePage />} />
                                 <Route path="/en/about" element={<AboutPage />} />
                                 <Route path="/vi/about" element={<AboutPage />} />
                                 <Route path="/en/projects" element={<ProjectsPage />} />
                                 <Route path="/vi/projects" element={<ProjectsPage />} />
+
+                                <Route path="/en/index.html" element={<HomePage />} />
+                                <Route path="/vi/index.html" element={<HomePage />} />
+                                <Route path="/en/about.html" element={<AboutPage />} />
+                                <Route path="/vi/about.html" element={<AboutPage />} />
+                                <Route path="/en/projects.html" element={<ProjectsPage />} />
+                                <Route path="/vi/projects.html" element={<ProjectsPage />} />
 
                                 <Route path="*" element={<HomePage />} />
                             </Routes>
