@@ -50,17 +50,17 @@ export const SITE_DATA = {
 
     summaries: {
         short: {
-            en: "IT Helpdesk candidate with 3 months of hands-on support experience, skilled at troubleshooting hardware and software issues, network connectivity, system setup, and end-user technical support.",
-            vi: "Ứng viên Helpdesk CNTT với 3 tháng kinh nghiệm thực tế trong hỗ trợ, có khả năng xử lý sự cố phần cứng và phần mềm, kết nối mạng, cài đặt hệ thống và hỗ trợ người dùng cuối."
+            en: "IT Helpdesk candidate with practical experience in troubleshooting, hardware and software support, network setup, and end-user assistance. A strong match for hiring fresh graduates looking for a reliable support role.",
+            vi: "Ứng viên IT Helpdesk với kinh nghiệm thực tế trong xử lý sự cố, hỗ trợ phần cứng và phần mềm, cài đặt mạng và hỗ trợ người dùng cuối. Phù hợp cho tuyển dụng sinh viên vừa ra trường tìm vị trí hỗ trợ đáng tin cậy."
         },
         shortSub: {
-            en: "Focused on helpdesk and desktop support roles with strong communication, technical documentation, and incident response skills.",
-            vi: "Tập trung vào vị trí Helpdesk và hỗ trợ máy tính với kỹ năng giao tiếp tốt, viết tài liệu kỹ thuật và xử lý sự cố hiệu quả."
+            en: "Focused on helpdesk and desktop support roles with strong communication, technical documentation, and incident response skills for repairing and maintaining technology equipment.",
+            vi: "Tập trung vào vị trí Helpdesk và hỗ trợ máy tính với kỹ năng giao tiếp tốt, viết tài liệu kỹ thuật và xử lý sự cố hiệu quả để hỗ trợ sửa chữa thiết bị công nghệ thông tin."
         },
         full: [
             {
-                en: "I am an enthusiastic IT support professional seeking a helpdesk role. With practical experience in IT Helpdesk support, I provide clear incident resolution, network configuration, hardware/software troubleshooting, and supportive end-user communication.",
-                vi: "Tôi là một chuyên viên hỗ trợ CNTT nhiệt huyết đang tìm kiếm vị trí Helpdesk. Với kinh nghiệm thực tế tại bộ phận Helpdesk, tôi mang đến khả năng giải quyết sự cố rõ ràng, cấu hình mạng, xử lý phần cứng/phần mềm và giao tiếp hỗ trợ người dùng cuối."
+                en: "I am an enthusiastic IT support professional seeking a helpdesk role. With practical experience in IT Helpdesk support, I provide clear incident resolution, network configuration, hardware/software troubleshooting, and user-friendly assistance for technology equipment.",
+                vi: "Tôi là một chuyên viên hỗ trợ CNTT nhiệt huyết đang tìm kiếm vị trí Helpdesk. Với kinh nghiệm thực tế trong IT Helpdesk, tôi mang đến khả năng giải quyết sự cố rõ ràng, cấu hình mạng, xử lý phần cứng/phần mềm và hỗ trợ sửa chữa thiết bị công nghệ thông tin cho người dùng."
             },
             {
                 en: "I am committed to improving support workflows, resolving user issues quickly, and continuing to learn IT operations, system access, and technical assistance best practices.",
@@ -182,8 +182,8 @@ export const SITE_DATA = {
             vi: "Mục tiêu nghề nghiệp"
         },
         description: {
-            en: "My short-term goal is to join a professional IT helpdesk or technical support team, where I can use my troubleshooting and customer service skills to resolve issues efficiently. Long-term, I want to grow into IT operations and support leadership while helping teams maintain reliable systems.",
-            vi: "Mục tiêu ngắn hạn của tôi là gia nhập đội ngũ Helpdesk hoặc hỗ trợ kỹ thuật chuyên nghiệp, nơi tôi có thể sử dụng kỹ năng xử lý sự cố và dịch vụ khách hàng để giải quyết vấn đề hiệu quả. Về lâu dài, tôi muốn phát triển vào lĩnh vực vận hành CNTT và lãnh đạo hỗ trợ, góp phần duy trì hệ thống ổn định cho đội ngũ."
+            en: "My short-term goal is to join a professional IT helpdesk or technical support team, where I can use my troubleshooting and customer service skills to resolve issues efficiently and support technology equipment with care. Long-term, I want to grow into IT operations and support leadership while helping teams maintain reliable systems.",
+            vi: "Mục tiêu ngắn hạn của tôi là gia nhập đội ngũ Helpdesk hoặc hỗ trợ kỹ thuật chuyên nghiệp, nơi tôi có thể sử dụng kỹ năng xử lý sự cố và dịch vụ khách hàng để giải quyết vấn đề hiệu quả và hỗ trợ sửa chữa thiết bị công nghệ thông tin một cách cẩn thận. Về lâu dài, tôi muốn phát triển vào lĩnh vực vận hành CNTT và lãnh đạo hỗ trợ, góp phần duy trì hệ thống ổn định cho đội ngũ."
         }
     },
 

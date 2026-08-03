@@ -1,3 +1,1 @@
-fix the imformation about me my name "Trịnh Ngọc Nhất"
-i am find jobs for helpdesk not backend so make the description suit for helpdesk in English and Vietnamese
-you need to fix data and sitemap for me 
+improve the SEO for me for any find "trinhngocnhat", "IT helpdesk","tuyển dụng sinh viên vừa ra trường", "hỗ trợ sửa chửa thiết bị công nghệ thông tin"
